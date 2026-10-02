@@ -214,7 +214,7 @@ visitors %>%
 
 _Observe in question 6 that the mean statistics across all settings are much larger than the corresponding median statistics. Discuss in your group what this suggests about the data._
 
-**Write your answer here**
+The data has a wide range but is more concentrated around the median value.
 
 ## Question 8
 
