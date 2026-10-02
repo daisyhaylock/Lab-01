@@ -143,7 +143,7 @@ _How many regions have more than 50 tourist attraction in the data set? (Hint: Y
 ```{r Ex_g}
 visitors %>% 
   count(region) %>%
-  filter(n = 50)
+  filter(n > 50)
 ```
 
 
@@ -221,11 +221,11 @@ The data has a wide range but is more concentrated around the median value.
 ### Exercise l.
 
 ```{r Q8}
-#visitors %>% 
-#  summarise(
-#     __________,
-#     __________,
-#  )
+visitors %>%
+    summarise(
+        min_2021 = min(na.rm = TRUE, n_2021),
+        max_2021 = max(na.rm = TRUE, n_2021)
+    )
 ```
 
 ## Question 9
